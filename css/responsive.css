@@ -1,0 +1,44 @@
+@media screen and (min-width: 768px) { 
+  body{
+    width: 80%;
+    font-size: 0.875em;
+  }
+
+  nav .topnav .topnav-items{
+    list-style: none;
+    height: 5em;
+    display: inline-block;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    padding: 0 5%;
+}
+
+  .topnav .topnav-items li{
+    display: inline-block;
+    float: left;
+    margin: 1em 1em;
+    width: 1em;
+  }
+
+  .section1{
+    float: left;
+    width: 65%;
+    margin: 0 5%;
+  }
+
+  .section2{
+    float: left;
+    width: 25%;
+    margin: 0 5%;
+  }
+}
+
+@media and (min-width: 960px) { /*960px*/
+  body{
+    width: 100%;
+    font-size: 1em;
+  }
+
+}
