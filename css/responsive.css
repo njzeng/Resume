@@ -1,6 +1,6 @@
 @media screen and (min-width: 768px) { 
   body{
-    width: 80%;
+    width: 100%;
     font-size: 0.875em;
   }
 
@@ -18,20 +18,20 @@
   .topnav .topnav-items li{
     display: inline-block;
     float: left;
-    margin: 1em 1em;
+    margin: 2em 9.5em;
     width: 1em;
   }
 
   .section1{
     float: left;
     width: 65%;
-    margin: 0 5%;
+    margin: 30px 2.5px 0px 30px;
   }
 
   .section2{
     float: left;
     width: 25%;
-    margin: 0 5%;
+    margin: 30px 2.5px 0px 30px;
   }
 }
 
