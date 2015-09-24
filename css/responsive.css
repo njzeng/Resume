@@ -3,28 +3,37 @@
     width: 100%;
     font-size: 0.875em;
   }
-
-  nav .topnav .topnav-items{
-    list-style: none;
-    height: 5em;
-    display: inline-block;
-    overflow: hidden;
-    text-decoration: none;
-    text-align: center;
-    width: 100%;
-    padding: 0 5%;
-}
-
-  .topnav .topnav-items li{
-    display: inline-block;
+  .time-line .current-position{
+    position: relative;
     float: left;
-    margin: 2em 9.5em;
-    width: 1em;
+    width: 38%;
+    padding: 15px;
+    top: 20px;
+  }
+  .time-line .past-position{
+    position: relative;
+    float: left;
+    width: 20%;
+    padding: 15px;
+    top:20px;
   }
 
-  .section1{
+  .contact, .portfolio {
+    position: relative;
+    clear: both;
+    padding: 10px;
+  }
+}
+
+/* 
+    how to vertical center
+
+    position absolute margin auto top and bottom 0
+    height 1em
+*/
+/*  .section1{
     float: left;
-    width: 65%;
+    width: 100%;
     margin: 30px 2.5px 0px 30px;
   }
 
@@ -34,11 +43,10 @@
     margin: 30px 2.5px 0px 30px;
   }
 }
-
+*/
 @media and (min-width: 960px) { /*960px*/
   body{
     width: 100%;
     font-size: 1em;
   }
-
 }

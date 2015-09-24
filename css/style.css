@@ -66,16 +66,14 @@ footer {
 }
 
 .topnav{
-  position: relative;
-  top: 12em;
-  left: 0;
-  bottom: auto;
-  right: auto;
+  position: fixed;
+  top: 0;
+  bottom: 0;
   width: 100%;
-  background-color: #749AD3;
+  height: 5em;
   z-index: 99;
-  display: inline-block;
-  list-style: none;
+  background-color: #202022;
+  display: none;
 }
 .topnav .topnav-items{
   list-style: none;
@@ -85,16 +83,20 @@ footer {
   text-decoration: none;
   text-align: center;
   width: 100%;
-  padding: 0 10%;
+  margin: 0 auto;
 
 }
 
 .topnav .topnav-items li{
   display: inline-block;
   float: left;
-  margin: 2.5% 8%;
-  width: 6em;
+  margin: 2em 0;
+  width: 25%;
 }
+
+  .topnav .topnav-items li a{
+    color: white;
+  }
 
 .main {
   width: 90%;
@@ -109,8 +111,10 @@ footer {
 
 .time-line .current-position{
   position: relative;
+  width: 100%;
   padding: 15px;
   border-left: 3px solid #e1e1e1;
+  display: inline-block;
 
 }
 
@@ -118,7 +122,7 @@ footer {
   width: 50px;
   height: 50px;
   font-size: 10px;
-  padding: 7px 7px;
+  padding: 5px 7px;
   border-radius: 50%;
   border: 1px solid #1E3C63;
   background-color: #1E3C63;
@@ -159,8 +163,10 @@ footer {
 
 .time-line .past-position{
   position: relative;
+  width: 100%;
   padding: 15px;
   border-left: 3px solid #e1e1e1;
+  display: inline-block;
   
 }
 
@@ -177,8 +183,7 @@ footer {
 }
 
 .portfolio{
-  background-color: rgba(241, 205, 196, 0.75);
-  padding: 10px;
+  padding: 15px;
 }
 
 .section1 .section2{
@@ -212,4 +217,12 @@ footer {
 
 .contact li{
   display: inline-block;
+}
+
+.contact ul{
+  padding: 30px 0;
+}
+
+li:hover {
+  cursor: pointer;
 }

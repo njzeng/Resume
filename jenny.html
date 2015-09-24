@@ -17,7 +17,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 <!--     <link rel="stylesheet" href="css/main.css"> -->
     <link rel="stylesheet" href="css/responsive.css">
-    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+
 
 
   </head>
@@ -26,20 +26,20 @@
       <header>
        <!--  <img src="img/img6427.jpg" alt="background" style="width:60em;height:20em"> -->
         <h1 class="name">JENNY ZENG</h1>
-        <nav class="topnav">
+        <div class="topnav">
           <ul class="topnav-items">
             <li><a href="jenny.html">Home</a></li>
-            <li><a href="experience.html">Experience</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#section-experience">Experience</li>
+            <li><a href="#section-portfolio">Portfolio</a></li>
+            <li><a href="#section-contact">Contact</a></li>
           </ul>
-        </nav>
+        </div>
       </header>
     </div>
 
     <main class="main">
 
-      <section class="experience section1" href="experience.html">
+      <section id="section-experience" class="experience section1">
         <h2>Experience</h2>
         <div class="time-line">
           <div class="current-position">
@@ -109,7 +109,11 @@
         </div>
       </section>
 
-      <aside class="contact section2">
+      <section class="portfolio section2" id="section-portfolio">
+        <h2>Portfolio</h2>
+      </section>
+
+      <section id="section-contact" class="contact section2">
         <h2>Contact Me</h2>
         <div class="social">
           <ul>
@@ -123,26 +127,22 @@
               </a>
             </li>
         </div>
-      </aside>
-      
-      <section class="portfolio section2">
-        <h2>
-          <a href="portfolio.html">View My Portfolio</a>
-        </h2>
       </section>
-
+      
     </main>
 
       <footer>
         <nav class="nav">
           <a href="jenny.html">Home</a>
-          <a href="experience.html">Experience</a>
-          <a href="portfolio.html">Portfolio</a>
-          <a href="contact.html">Contact</a>
+          <a href="#section-experience">Experience</a>
+          <a href="#section-portfolio">Portfolio</a>
+          <a href="#section-contact">Contact</a>
         </nav>
         <p>Copyright &copy; JENNYZENG.CA 2015</p>
         <p><a href="#top">Back To Top</a></p>
       </footer> 
+
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
 
     <script type="text/javascript" src="js/script.js"></script>
   </body>
